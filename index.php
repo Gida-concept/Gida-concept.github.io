@@ -4,7 +4,16 @@
 
 <!--Head start-->
 <head>
-<meta charset="UTF-8">
+
+<meta charset="UTF-8">	 
+ <meta property="og:url" content="gidaconcept.herokuapp.com" />
+<meta property="og:site_name" content="Gida Concept" />
+<meta name="description" content="Gida Concept is a creative digital agency located in Bayelsa State…. 
+We are a team of professional graphic designers, web developers, content writers,
+ marketers and IT specialists combining the knowledge 
+of our skills to create beautiful designs and strategies, aimed to meet your business’s needs.">
+<meta name="author" content="gida concept">
+<meta name="keywords" content="Gida Concept ">
 <meta name="viewport" content="width=devicewidth,initial-scale=1.0">
 <link rel="stylesheet" href="gida concept.css">
 <script src="gida.js"></script>
@@ -194,6 +203,86 @@ all the fields crucial to building and maintaining a great brand and product tha
 </section>
 <!--About  Page end-->
 
+<!--Principles Start-->
+<section class="principles">
+
+<div class="principles-tabs-1">
+    <h2>
+     ___Strategy___
+    </h2>
+    <h4>Main Principles</h4>
+</div>
+
+<div class="principles-tabs">
+   <img class="principles-img" src="https://harnixtech.com.ng/wp-content/uploads/2020/02/image-layers-3-01.png">
+</div>
+
+    <div class="principles-tabs-2">
+<h3>Transformation</h3>
+<p>Let's switch up your business and help your business reach it's set target.</p>
+</div>
+
+<div class="principles-tabs-2">
+<h3>Service</h3>
+<p>We welcome regular contact with our clients. All of our work is undertaken by our dedicated in-house teams</p>
+</div>
+
+<div class="principles-tabs-2">
+<h3>Reliable</h3>
+<p>Experience no-delays, let's get your project up and running before your project deadline</p>
+</div>
+
+<div class="principles-tabs-2">
+<h3>
+Transparency</h3>
+<p>It is important that our client’s know exactly 
+    what they are paying for. We provide detailed information about the work we undertake on their behalf.</p>
+</div>
+
+<div class="principles-tabs-2">
+<h3>
+Knowledge</h3>
+<p>The world in which we work
+     changes rapidly and we can only be the best through constant attention to research, knowledge gathering and training.</p>
+</div>
+
+<div class="principles-tabs-2">
+<h3>
+Creativity</h3>
+<p>We are a team of skilled individuals, who share a common goal and passion for the work we do.</p>
+</div>
+
+</section>
+
+<!--Principles End-->
+
+<!--Vision Start-->
+<section class="vision">
+<h3>_OUR VISION_</h3>
+<h2>Strategy is at the 
+Heart of What We Do</h2>
+
+<p>Our team applies its wide-ranging experience to determining the 
+    strategies that will best enable our clients to achieve clear, long-term objectives.</p>
+
+<h5>
+PROFESSIONALISM  100%
+<hr class="wrk-percentage">
+</h5>
+
+<h5>
+CREATIVE THINKERS  100%
+<hr class="wrk-percentage">
+</h5>
+
+<h5>
+CUSTOMER SERVICE  100%
+<hr class="wrk-percentage">
+</h5>
+</section>
+<!--Vision Endt-->
+
+
 <!--Portfolio  Page start-->
 <section class="portfolio">
 
@@ -240,16 +329,14 @@ Take a look at some of our award-winning partner projects. Here are just a few r
 <div class="our-company-1">
 <img class="our-company-img" src="https://i.imgur.com/ftVKl5I.png" >
 </img>
-<h2>20+</h2>
-<p>Clients</p>
+<h2>20<sup>+</sup> Clients</h2>
 </div>
 
 
 <div class="our-company-1">
 <img class="our-company-img" src="https://i.imgur.com/S6HBVXR.png">
 </img>
-<h2>20+</h2>
-<p>Projects</p>
+<h2>10<sup>+</sup> Projects</h2>
 </div>
 
 <!--
@@ -264,17 +351,51 @@ Take a look at some of our award-winning partner projects. Here are just a few r
 <div class="our-company-1">
 <img class="our-company-img" src="https://www.kindpng.com/picc/m/756-7566524_entrepreneur-management-skills-hands-on-practical-experience-icon.png">
 </img>
-<h2>5+</h2>
-<p>Years Experirnce</p>
+<h2>5<sup>+</sup> Years Experirnce</h2>
 </div>
 
 </div>
-
 </section>
-
 <!--Our Company   Page end-->
 
 
+<!--Why Choose Us start-->
+<section class="why-us">
+
+    <div class="wu-tabs">
+    <h2>
+     Few Reasons Why You Should Choose Gida Concept
+    </h2>
+    <h4>We seamlessly merge two key components – Economics and Information Technology.</h4>
+</div>
+
+
+
+<div class="wu-tabs-1">
+    <img class="wu-img"  src="data:image/png;base64,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">
+</img>
+   <p>High standards of professionalism, integrity. Establishment of close working relationships.</p>
+   <hr>
+</div>
+
+
+
+<div class="wu-tabs-1">
+    <img class="wu-img"  src="https://cdn-icons-png.flaticon.com/512/5351/5351256.png">
+</img>
+   <p>We deliver before your set deadline and meet your expectations.</p>
+   <hr>
+</div>
+
+<div class="wu-tabs-1">
+    <img class="wu-img"  src="https://www.pngfind.com/pngs/m/247-2470002_critical-thinking-problem-solving-competency-symbol-hd-png.png">
+</img>
+   <p>A different way of thinking, both inside and outside the box..</p>
+   <hr>
+</div>
+
+</section>
+<!--Why Choose Us end-->
 
 <!--Reviews   Page start-->
 <section class="reviews-container">

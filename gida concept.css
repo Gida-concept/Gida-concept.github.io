@@ -26,7 +26,7 @@ a:link,a:visited{
 	  .header-img{display: none;}
 	  .intro-img{display: none;}
 	  .abts-img{display: none;}
-				 
+	  .about-us-tag-2{display: none;}
 	}
 	/*Pc Look design*/
 
@@ -303,6 +303,127 @@ background-color: yellow;
 /*About Us Page Design End*/
 
 
+/*Principles Start*/
+.principles{
+	padding: 20px  0px 10px 10px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	align-items: flex-start;
+	justify-content: center;
+	width: 100%;
+	height: 50%;
+}
+
+.principles-tabs{
+	letter-spacing: 1px;
+	text-align: center;
+}
+
+.principles-tabs-1{
+	flex: 100%;
+	letter-spacing: 1px;
+	text-justify: auto;
+	text-align: center;
+}
+
+.principles-tabs-1 h2{
+	color: yellow;
+	font-size: 12px;
+	padding-bottom: 5px;
+}
+
+.principles-tabs-1 h4{
+	color: black;
+	font-size: 24px;
+	padding-top: 5px;
+}
+
+.principles-tabs-2{
+	flex-basis: 350px;
+	text-align: center;
+	box-sizing: border-box;
+	border-radius: 35px;
+	padding: 10px 5px 10px 5px;
+	margin:20px 5px 10px 10px ;
+	box-shadow: 10px 10px 5px black;
+
+}
+ .principles-tabs-2:hover {
+	background-color: yellow;
+ }
+
+ .principles-tabs-2 h3{
+	font-size: 18px;
+	letter-spacing: 1px;
+	padding-bottom: 10px;
+	text-shadow: yellow 8px 8px 3px;
+ }
+
+ .principles-tabs-2 p{
+	font-size: 14px;
+	letter-spacing: 1px;
+	padding-bottom: 10px;
+
+ }
+
+.principles-img{
+	padding-top: 10px;
+	width: 100%;
+	height: 100%;
+	padding-bottom: 20px;
+}
+
+/*Principles End*/
+
+/*Vision Start*/
+.vision{
+padding: 20px  5px  10px 5px;
+background-color: yellow;
+}
+
+.wrk-percentage{
+	padding: 5px;
+	border-radius: 10px;
+	background-color: black;
+	color: black;
+}
+
+.vision h5 {
+	padding:10px  0px  10px  5px;
+	line-height: 25px;
+	letter-spacing: 1.5px;
+}
+
+.vision p {
+	padding:10px  0px  10px  5px;
+	line-height: 20px;
+	letter-spacing: 1px;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+.vision h3 {
+	padding:10px  0px  10px  5px;
+	color: blanchedalmond;
+	letter-spacing: 1px;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+.vision h2 {
+	padding:10px  0px  10px  5px;
+	letter-spacing: 1px;
+	font-size: 35px;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+
+/*Vision End*/
+
+
+
 
 /*Portfolio  Page start*/
 .portfolio{
@@ -315,7 +436,7 @@ background-color: yellow;
 	flex-wrap: wrap;
 	align-items: start;
 	justify-content: center;
-	padding-bottom:80px ;
+	padding-bottom:10px ;
 }
 
 .portfolio-tag-1{
@@ -411,12 +532,12 @@ background-color: yellow;
 
 /*Our Company   Page start*/
 .our-company-img{
-	width: 100px;
-	height: 100px;
+	width: 50px;
+	height: 50px;
 	margin-bottom: 10px;
 }
 .our-company {
-	padding: 60px 0px 10px 0px;
+	padding: 10px 0px 10px 0px;
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
@@ -432,15 +553,9 @@ background-color: yellow;
 	padding-bottom: 2px;
 	letter-spacing: 1px;
 	font-weight: bolder;
-	font-size: 46px;
-}
-
-.our-company-1 p{
-	padding-bottom: 2px;
-	letter-spacing: 1px;
-	font-weight: bolder;
 	font-size: 18px;
 }
+
 
 .our-company-1{
 	text-align: center;
@@ -450,7 +565,75 @@ padding: 10px   10px 10px 10px;
 margin: 5px;
 
 }
+
 /*Our Company   Page  End*/
+
+/*Why Choose Us start*/
+
+.why-us{
+	padding: 20px  0px 10px 10px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	height: 50%;
+	background-color: black;
+}
+
+.wu-tabs{
+	color: white;
+	flex: 100%;
+	letter-spacing: 1px;
+	text-justify: auto;
+	text-align: center;
+}
+
+.wu-tabs h2{
+	font-size: 24px;
+	font-family: AR JULIAN;
+	letter-spacing: 2px;
+	font-weight: 700;
+	}
+
+.wu-tabs h4{
+font-size: 15px;
+font-weight: 500;
+}
+
+.wu-tabs p{
+	font-size: 14px;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	letter-spacing: 1px;
+	line-height: 25px;
+}
+
+.wu-tabs-1{
+	flex-basis: 350px;
+	color: white;
+	text-align: center;
+	padding: 10px 5px 10px 5px;
+	margin:20px 5px 10px 10px ;
+	box-shadow: 10px 10px 5px yellow;
+}
+
+.wu-tabs-1 p{
+	padding-top: 5px;
+	padding-bottom: 25px;
+	font-size: 16px;
+	line-height: 25px;
+}
+
+.wu-img{
+	width: 30px;
+	height: 30px;
+}
+
+
+
+
+/*Why Choose Us End*/
 
 
 /*Review   Page start*/
@@ -525,10 +708,7 @@ position:relative;}
 	color: yellow;
 }
 
-
-
 /*Review    Page  End*/
-
 
 
 /*Contact  Page start*/
@@ -734,18 +914,7 @@ letter-spacing: 1px;
 	padding: 5px;
 }
 
-
-
-
-
-
-
-
-
-
 	/*Tutorials Page end*/
-
-
 
 	/*Footer  Page start*/
   footer{
