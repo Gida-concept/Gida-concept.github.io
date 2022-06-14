@@ -12,6 +12,8 @@
 We are a team of professional graphic designers, web developers, content writers,
  marketers and IT specialists combining the knowledge 
 of our skills to create beautiful designs and strategies, aimed to meet your business’s needs.">
+
+<meta property="og:image" content="images/gida.png" />
 <meta name="author" content="gida concept">
 <meta name="keywords" content="Gida Concept ">
 <meta name="viewport" content="width=devicewidth,initial-scale=1.0">
