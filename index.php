@@ -297,6 +297,9 @@ CUSTOMER SERVICE  100%
 Take a look at some of our award-winning partner projects. Here are just a few results we’ve been able to deliver to our client partners
 </p>
 
+<img class="portfolio-img" src="images/sirben 1.jpg"></img>
+<img class="portfolio-img" src="images/dybastos.png"></img>
+
 </div>
 
 
