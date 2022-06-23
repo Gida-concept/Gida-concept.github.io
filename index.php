@@ -19,6 +19,7 @@ of our skills to create beautiful designs and strategies, aimed to meet your bus
 <meta name="viewport" content="width=devicewidth,initial-scale=1.0">
 <link rel="stylesheet" href="gida concept.css">
 <link rel="shortcut icon" href="images/logo-1.jpg" type="images/x-icon"/>
+<meta name="google-site-verification" content="2TNn0-rtrPHnVa9rCr5w2nU6JR4rZQsKhWypDwaQ9Xo" />
 <title>Gida Concept</title>
 </head>
 
