@@ -8,7 +8,7 @@
 
     .mobile-header{
         width: 100%;
-        height: 100px;
+        height: 60px;
         display: flex;
         padding-top: 10px;
         margin-top: -10px;
@@ -24,8 +24,8 @@
     }
 
     .mobile-1{
-        width: 50px;
-        height: 50px;
+        width: 27px;
+        height: 27px;
         margin: 5px;
     }
 
@@ -168,7 +168,7 @@ margin: 0px  10px  0px  0px;
 }
 
 .pc-header{
-     height: 750px;
+     height: 400px;
       width: 100%;
      background-image: url("image/header-img.png");
      background-color: black;
@@ -178,13 +178,13 @@ margin: 0px  10px  0px  0px;
     }
 
     .pc-text {
-     padding-top: 35%;
+     padding-top: 50%;
      padding-left: 2%;
     }
 
     .pc-text  h1{
      color: yellow;
-     font-size: 45px;
+     font-size: 25px;
     font-style: italic;
      font-family: url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Lobster&family=Niconne&display=swap');
      letter-spacing: 1px;
@@ -192,7 +192,7 @@ margin: 0px  10px  0px  0px;
     
    .pc-text  h2{
    color: white;
-   font-size: 30px;
+   font-size: 25px;
    font-family:Abril Fatface ;
    letter-spacing: 1px;
    margin-bottom: 20px;
@@ -297,7 +297,7 @@ justify-content: center;
 
 .layout-3-head{
 margin-top: 30px;
-flex-basis: 80%;
+flex-basis: 100%;
 padding-left: 5px;
 padding-bottom: 10px;
 padding-top: 20px;
@@ -330,7 +330,7 @@ padding-left: 5px;
 }
 
 .layout-3-body{
-flex-basis: 80%;
+flex-basis: 100%;
 padding-bottom: 10px;
 padding-top: 20px;
 padding-left: 5px;
@@ -359,7 +359,7 @@ background-size: cover;
 
 .layout-4-txt{
 text-align: center;
-flex-basis: 90%;
+flex-basis: 100%;
 padding-top: 10px;
 padding-bottom: 10px;
 }
@@ -516,15 +516,15 @@ margin-left: 10px;
 }
 
 .layout-5-1-subcontainer {
-height: 450px;
+height: 100%;
 padding: 10px;
 margin-top: -250px;
 width: 350px;
-flex-basis: 95%;
-padding-right: 10px;
+flex-basis: 100%;
+padding-right: 5px;
 margin-right: 10px;
 margin-left: 10px;
-padding-left: 10px;
+padding-left: 5px;
 background-color: black;
 color: white;
 border-radius: 20px;
@@ -533,15 +533,15 @@ border-radius: 20px;
 .layout-5-1-subcontainer h1 {
 color:rgb(186, 186, 21);
 letter-spacing: 1px;
-padding: 10px 5px  10px 5px;
-font-size: 20px;
+padding: 10px 2px  2px 5px;
+font-size: 24px;
 font-weight: 800px;
 }
 
 .layout-5-1-subcontainer h2 {
 letter-spacing: 1px;
-padding: 10px 5px  10px 25px;
-font-size: 28px;
+padding: 10px 2px  2px 25px;
+font-size: 23px;
 font-weight: 800px;
 font-family: 'Times New Roman', Times, serif;
 }
@@ -549,7 +549,7 @@ font-family: 'Times New Roman', Times, serif;
 .layout-5-1-subcontainer p {
 letter-spacing: 1px;
 padding: 10px 70px  10px 55px;
-font-size: 16px;
+font-size: 18px;
 font-weight: 800px;
 font-family: 'Times New Roman', Times, serif;
 }
@@ -622,13 +622,13 @@ border-radius: 15px;
 .layout-7-sub{
 width: 500px;
 height: 650px;
-flex-basis: 90%;
+flex-basis: 99%;
 margin-bottom: 15px;
 }
 
 .layout-7-sub-1 {
 height: 450px;
-flex-basis: 95%;
+flex-basis: 99%;
 }
 
 .layout-7-sub-1 h1 {
@@ -650,7 +650,7 @@ font-family: 'Times New Roman', Times, serif;
 .layout-7-sub-1 p {
 letter-spacing: 1px;
 padding-bottom: 5px;
-font-size: 16px;
+font-size: 17px;
 font-weight: bolder;
 font-family: 'Times New Roman', Times, serif;
 }
@@ -663,7 +663,7 @@ font-weight: bolder;
 }
 
 .value-line{
-width: 100%;
+width: 98%;
 padding: 5px;
 margin-bottom: 5px;
 background-color:rgb(186, 186, 21) ;
@@ -671,14 +671,15 @@ border-radius: 5px;
 }
 
 .partners-layout{
-margin-top: 35px;
+margin-top: 45px;
+margin-bottom: -26px;
 padding: 5px;
 width: 100%;
 height: 100%;
 }
 
 .partners-img{
-width: 170px;
+width: 125px;
 padding: 10px 20px  20px  10px;
 margin-top: 25px;
 margin-bottom: 25px;
@@ -690,7 +691,7 @@ border: 10px;
 box-shadow: 2px   2px   2px  2px grey;
 transition: 0.8s;
 padding: 10px;
-margin: 20px;
+margin: 18px;
 }
 
 .layout-8{
@@ -709,7 +710,7 @@ padding-bottom: 25px;
 .layout-8-sub{
 height: 100%;
 margin: 10px;
-flex-basis: 80%;
+flex-basis: 95%;
 border: 3px solid ;
 border-color: whitesmoke;
 border-radius: 15px;
@@ -726,7 +727,7 @@ margin: 2px;
 
 .layout-8-sub h1{
 letter-spacing: 1px;
-font-size: 24px;
+font-size: 22px;
 padding-bottom: 15px;
 font-weight: 800px;
 font-family: 'Times New Roman', Times, serif;
@@ -746,7 +747,7 @@ color: rgb(186, 186, 21);
 }
 
 .layout-8-txt{
-flex-basis: 95%;
+flex-basis: 100%;
 padding: 10px;
 margin: 2px;
 }
@@ -762,7 +763,7 @@ font-weight: 800px;
 .layout-8-txt h2{
 letter-spacing: 1px;
 padding: 2px 5px  10px 5px;
-font-size: 45px;
+font-size: 35px;
 font-weight: 800px;
 
 }
@@ -798,7 +799,7 @@ padding-bottom: 25px;
 }
 
 .layout-9-txt{
-flex-basis: 95%;
+flex-basis: 100%;
 padding: 20px 10px  5px  10px ;
 margin: 2px;
 text-align: center;
@@ -815,7 +816,7 @@ font-weight: 800px;
 .layout-9-txt h2{
 letter-spacing: 1px;
 padding: 2px 5px  5px 5px;
-font-size: 38px;
+font-size: 35px;
 font-weight: 800px;
 
 }
@@ -971,7 +972,7 @@ padding: 10px;
 
 /* About-us*/
 .about-us-header{
-height: 700px;
+height: 400px;
 width: 100%;
 background-image: url("https://www.susangreenecopywriter.com/wp-content/uploads/2013/01/pexels-photo-3811082.jpeg");
 background-color: black;
@@ -984,8 +985,8 @@ margin-bottom: 24px;
 .about-us-txt{
 color: white;
 text-align: center;
-padding-top:35%;
-padding-bottom: 15%;
+padding-top:50%;
+padding-bottom: 20%;
 font-family: 'Times New Roman', Times, serif;
 
 }
@@ -1230,7 +1231,7 @@ border-radius: 100%;
 
 /* Contact-us*/
 .con-us-header{
-height: 700px;
+height: 400px;
 width: 100%;
 background-image: url("image/contact-us-header.png");
 background-color: black;
@@ -1244,8 +1245,8 @@ margin-bottom: 24px;
 .con-us-txt{
 color: white;
 text-align: center;
-padding-top:35%;
-padding-bottom: 15%;
+padding-top:50%;
+padding-bottom: 20%;
 font-family: 'Times New Roman', Times, serif;
 
 }
@@ -1374,7 +1375,7 @@ height:100% ;
 
 /* Our - Services*/
 .services-header{
-height: 700px;
+height: 400px;
 width: 100%;
 background-image: url("image/services-img.png");
 background-color: black;
@@ -1388,8 +1389,8 @@ margin-bottom: 24px;
 .services-txt{
 color: white;
 text-align: center;
-padding-top:35%;
-padding-bottom: 15%;
+padding-top:50%;
+padding-bottom: 20%;
 font-family: 'Times New Roman', Times, serif;
 }
 
@@ -1412,7 +1413,7 @@ font-size: 24px;
 
 .services-tab-1{
 text-align: center;  
-width: 85%;
+width: 95%;
 padding: 10px  2px  10px  2px;
 }
 
@@ -1435,6 +1436,7 @@ font-size: 24px;
 text-align: center;
 padding-bottom: 5px;
 color: black;
+font-weight: 700px;
 letter-spacing: 1px;
 font-size: 18px;
 }
@@ -1460,8 +1462,9 @@ margin: 10px;
 }
 
 .services-tab-2-text p{
-font-size: 16px;
+font-size: 18px;
 margin-top: 5px;
+font-weight: 700px;
 margin-bottom: 5px;
 letter-spacing: 1px;
 text-align: left;
@@ -1504,7 +1507,7 @@ height: 50%;
 
 /* Portfolio*/
 .portfolio-header{
-height: 700px;
+height: 400px;
 width: 100%;
 background-image: url("image/portfolio-img.png");
 background-color: black;
@@ -1518,8 +1521,8 @@ margin-bottom: 24px;
 .portfolio-txt{
 color: white;
 text-align: center;
-padding-top:35%;
-padding-bottom: 15%;
+padding-top:50%;
+padding-bottom: 20%;
 font-family: 'Times New Roman', Times, serif;
 }
 
@@ -1610,7 +1613,7 @@ position: absolute;
 
 /* blog */
 .blog-header{
-height: 700px;
+height: 400px;
 width: 100%;
 background-image: url("image/blog-header.jpg");
 background-color: black;
@@ -1624,8 +1627,8 @@ margin-bottom: 24px;
 .blog-txt{
 color: white;
 text-align: center;
-padding-top:35%;
-padding-bottom: 15%;
+padding-top:50%;
+padding-bottom: 20%;
 font-family: 'Times New Roman', Times, serif;
 }
 
@@ -1665,15 +1668,15 @@ margin-bottom: 10px;
 border:grey  solid  1px;
 border-radius: 20px;
 padding: 10px;
-box-shadow: 2px 2px 2px 2px grey;
+box-shadow: 1px 1px 1px 1px grey;
 } 
 
 .blog-layout-sub-1{
   flex-basis: 95%;
   margin-top: 10px;
   margin-bottom: 10px;
-  margin-right: 10px;
-  margin-left: 10px;
+  margin-right: 5px;
+  margin-left: 5px;
 }
 
 .blog-img{
@@ -1684,7 +1687,7 @@ box-shadow: 2px 2px 2px 2px grey;
 .blog-layout-sub-2{
     text-align: left;
   flex-basis: 95%;
-  padding: 15px;
+  padding: 5px;
 }
 
 .blog-layout-sub-2 h1{
@@ -1718,24 +1721,25 @@ box-shadow: 2px 2px 2px 2px grey;
 .blog-article h1{
 font-size: 25px;
 width: 100%;
-padding: 10px  10px  5px ;
+padding: 10px  0px  0px  10px;
 letter-spacing: 1px;
 }
 
 .blog-article small{
   font-size: 18px;
+  font-style: italic;
   padding: 10px  10px  5px ;
   letter-spacing: 1px;
   }
 
   .blog-article p{
     font-size: 18px;
-    padding: 10px  10px  5px ;
+    padding: 10px  0px  0px  5px ;
     letter-spacing: 1px;
     }
   
     .blog-article{
-      width: 80%;
+      width: 95%;
       text-align: left;
     }
 
@@ -1745,8 +1749,8 @@ letter-spacing: 1px;
 }
 
 .blog-img-1{
-  width: 80%;
-  height: 80%;
+  width: 100%;
+  height: 100%;
   margin-top: 80px;
   border-radius: 25px;
 }
