@@ -1761,4 +1761,261 @@ letter-spacing: 1px;
 /*Blog End*/
 
 
+/*gida-web start*/
+
+.gida-head{
+  height: 350px;
+   width:100%;
+  background-image: url("image/mobile-gida.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 20px 0px 10px 0px;
+ }
+
+.gida-1{
+padding-top: 50px;
+padding-bottom: 50px;
+  display: flex;
+  width: 95%;
+  height: 100%;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  border-radius: 12px;
+  background-color: rgb(250, 250, 229);
+}
+
+
+.gida-sub-1{
+  flex-basis: 85%;
+  text-align: center;
+}
+
+.gida-sub-1 h1{
+  font-size: 26px;
+  font-family: 'Times New Roman';
+  letter-spacing: 1px;
+  line-height: 115%;
+  margin-bottom: 10px;
+}
+
+.gida-sub-1 p{
+  font-size: 16px;
+  font-family: 'Times New Roman';
+  letter-spacing: 1px;
+  line-height: 115%;
+  margin-bottom: 55px;
+}
+
+
+
+.gida-img-1{
+  height:100% ;
+  width: 100%;
+  border-radius: 6px;
+}
+
+.gida-sub{
+  flex-basis: 100%;
+  padding-right: 3px ;
+  padding-left: 3px;
+  margin: 10px;
+  text-align: left;
+}
+
+.gida-sub h2 {
+  font-size: 32px;
+  font-family: 'Times New Roman';
+  letter-spacing: 1px;
+  line-height: 24px;
+}
+
+.gida-sub li{
+line-height: 130%;
+list-style-type: disc;
+}
+
+.gida.sub p{
+  font-size: 18px;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  color: black;
+  font-family: 'Times New Roman';
+}
+
+
+.gida-2{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-image: url(image/backgroun-img.png);
+background-repeat: no-repeat;
+background-size: cover;
+padding-right: 10px;
+padding-left: 10px;
+  }
+
+.gida-2-sub{
+  flex-basis: 100%;
+  text-align: center;
+  margin-top: 5px;
+  margin-bottom: 20px;
+}
+
+.gida-2-sub h2{
+  font-weight: bolder;
+  font-size: 28px;
+  font-family: 'Times New Roman';
+  letter-spacing: 1px;
+  line-height: 115%;
+  margin-bottom: 10px;
+
+}
+
+.gida-2-sub p{
+  font-size: 14px;
+  font-family: 'Times New Roman';
+  letter-spacing: 1px;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+.gida-2-sub-1{
+  height: 100%;
+  flex-basis: 100%;
+  border: 0.5px rgb(163, 240, 163) solid;
+  border-radius: 20px;
+  margin: 10px;
+}
+
+.gida-2-sub-1 h2{
+margin-top: 10px;
+  margin-left: 20px;
+  margin-right: 10px;
+  padding-bottom: 10px;
+  line-height: 120%;
+  font-size: 20px;
+  font-weight: bolder;
+  font-family: 'Times New Roman';
+}
+
+.gida-2-sub-1 p{
+  margin-top: 10px;
+  margin-bottom: 5px;
+  line-height: 120%;
+  font-size: 15px;
+  margin-left: 20px;
+  margin-right: 10px;
+  font-family: 'Times New Roman';
+}
+
+.chat{
+  border:  rgb(225, 243, 103) 1px solid;
+  width: 50%;
+  background-color: rgb(148, 167, 29);
+  margin-left: 20px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  margin-top: 20px;
+  border-radius: 2px;
+}
+
+.chat p{
+ font-size: 12px;
+ padding: 1px;
+ margin: 5px;
+}
+
+.chat:hover {
+  box-shadow: 5px 5px 8px  rgb(225, 243, 103);
+  background-color: rgb(148, 167, 29);
+  margin-bottom: 10px;
+}
+
+
+.gida-3{
+  padding-top: 50px;
+  padding-bottom: 50px;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+
+  }
+  
+  
+  .gida-sub-1-3{
+    flex-basis: 100%;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  
+  .gida-sub-1-3 h1{
+    font-size: 24px;
+    font-weight: bolder;
+    font-family: 'Times New Roman';
+    letter-spacing: 1px;
+    line-height: 115%;
+    margin-bottom: 10px;
+  }
+  
+  .gida-sub-1-3 p{
+    font-size: 14px;
+    font-family: 'Times New Roman';
+    letter-spacing: 1px;
+    line-height: 115%;
+    margin-bottom: 55px;
+  }
+  
+  
+  .gida-sub-3{
+    flex-basis: 95%;
+    padding-right: 3px ;
+    padding-left: 3px;
+    margin: 10px;
+    text-align: left;
+  }
+  
+  .gida-sub-3 h2 b{
+    font-size: 28px;
+    font-family: 'Times New Roman';
+    letter-spacing: 1px;
+    line-height: 28px;
+  }
+  
+  .gida-sub-3 li{
+  line-height: 130%;
+  list-style-type: disc;
+  }
+  
+  .gida.sub-3 p{
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    color: black;
+    font-family: 'Times New Roman';
+  }
+
+
+  .email{
+    margin-top: 40px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  
+ /*gida-web end*/
+
+
   }
