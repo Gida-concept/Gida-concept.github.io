@@ -1825,11 +1825,10 @@ padding-bottom: 50px;
   text-align: left;
 }
 
-.gida-sub h2 {
+.gida-sub h2 b{
   font-size: 32px;
   font-family: 'Times New Roman';
   letter-spacing: 1px;
-  line-height: 24px;
 }
 
 .gida-sub li{
