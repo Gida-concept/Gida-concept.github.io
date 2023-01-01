@@ -1545,12 +1545,14 @@ margin-bottom: 10px;
  .portfolio-layout-1-sub-1 p{
  position: absolute;
   color: bisque;
+  height: 30px;
   width: 20%;
   font-size: 16px;
-  margin-top: -24px;
+  margin-top: -45px;
   margin-left: 20px;
   padding-left: 5px;
   border-radius: 5px;
+  padding-top: 5px;
   background-color: rgb(186, 186, 21);
  }
  
